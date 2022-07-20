@@ -5,6 +5,8 @@
 
 // TODO: ask if are encryption or decryption
 // TODO: make the decryption of word if asked
+// TODO: fix broken ascii for values above 122
+// TODO: fix text for keys below -7
 
 int main(int argc, char** argv) {
     if (argc != 3) return -1;
